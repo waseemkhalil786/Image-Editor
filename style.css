@@ -1,0 +1,125 @@
+body{
+    background: linear-gradient(rgb(190, 245, 87), rgb(48, 145, 116));
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.container-disable{
+    background: linear-gradient(rgb(255, 217, 113), rgb(211, 182, 16));
+    width: 700px;
+    height:  600px;
+    border-radius: 30px; 
+    box-shadow: rgba(122, 95, 95, 0.56) 0px 22px 70px 4px;
+}
+h2{
+    color: rgb(8, 8, 6);
+    font-size: 40px;
+    padding: 10px;
+}
+.options{
+    margin-right: 450px;
+}
+.rotate{
+    margin-top: -40px;
+}
+
+.slider{
+    margin-right: 450px ;
+}
+.title{
+    font-size: 30px;
+    font-weight: 400;
+    display: flex;
+    justify-content: baseline;
+    margin: 10px;
+}
+#brightness{
+    width: 200px;
+    height: 40px;
+    border-radius: 7px;
+    background: #ffffff;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bolder;
+}
+#brightness:hover{
+    background: #e7e2e2;
+    cursor: pointer;
+}
+#saturation{
+    width: 200px;
+    height: 40px;
+    border-radius: 7px;
+    background: #ffffff;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bolder;
+}
+#saturation:hover{
+    background: #e7e2e2;
+    cursor: pointer;
+}
+#inversion{
+    width: 200px;
+    height: 40px;
+    border-radius: 7px;
+    background: #ffffff;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bolder;
+}
+#inversion:hover{
+    background: #e7e2e2;
+    cursor: pointer;
+}
+#grayscale{
+    width: 200px;
+    height: 40px;
+    border-radius: 7px;
+    background: #ffffff;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bolder;
+}
+#grayscale:hover{
+    background: #e7e2e2;
+    cursor: pointer;
+}
+.preview-img{
+   margin-left: 200px;
+   margin-top: -420px;
+   width: 400px;
+}
+.controls{
+    margin-top: 20px;
+    margin-right: -200px;
+}
+.reset-filter{
+    width: 120px;
+    height: 30px;
+    background: #ffffff;
+    border-radius: 5px;
+}
+.reset-filter:hover{
+    background: #e7e2e2;
+    cursor: pointer;
+}
+.choose-img{
+    width: 120px;
+    height: 30px;
+    background: #ffffff;
+    border-radius: 5px;
+}
+.choose-img:hover{
+    background: #e7e2e2;
+    cursor: pointer;
+}
+.save-img{
+    width: 120px;
+    height: 30px;
+    background: #ffffff;
+    border-radius: 5px;
+}
+.save-img:hover{
+    background: #e7e2e2;
+    cursor: pointer;
+}
